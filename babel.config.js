@@ -8,7 +8,10 @@ function config(api) {
           ['module-resolver', {
             root: ['./src'],
             alias: {
-              '~screens': './screens',
+              '@screens': './screens',
+              '@components': './components',
+              '@config': './config',
+              '@assets': './assets',
             },
           }],
         ],

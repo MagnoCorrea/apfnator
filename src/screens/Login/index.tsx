@@ -4,7 +4,7 @@ import { NavigationScreenProp } from "react-navigation";
 
 import * as AppAuth from "expo-app-auth";
 
-import config from "../../config";
+import config from "@config";
 import Layout from "./Layout";
 
 export default class Login extends PureComponent {
